@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Five Nights at Freddy's</title>
+  <style>
+    @import url('https://fonts.cdnfonts.com/css/five-nights-at-freddys');
+
+    body {
+        background-image: url('https://wallpapercg.com/download/fnaf-help-wanted-3840x2160-9685.jpg');
+      background-repeat: no-repeat;
+      background-size: cover; 
+      background-position: center;
+      background-attachment: fixed;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #1a1a1a;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      font-family: Five Nights at Freddys;
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+    }
+    p {
+        font-family: Five Nights at Freddys;
+        font-size: 50px;
+      padding: 5px;
+      text-align: center;
+    }
+    nav {
+      background-color: #000000;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: #ddd;
+      color: #333;
+    }
+
+    .container {
+      padding: 1.5px;
+      width: 50%;
+      max-width: 700px;
+      margin: auto;
+      border: 5px solid #333; 
+      margin-top: 30px;
+      margin-bottom: 40px; 
+    }
+
+    iframe {
+      width: 100%;
+      height: 500px;
+    }
+
+    #user-icon {
+      position: absolute;
+      top: 20px;
+      right: 50px;
+      cursor: pointer;
+    }
+
+    #user-menu {
+      position: absolute;
+      top: 40px;
+      right: 10px;
+      background-color: #f1f1f1;
+      padding: 10px;
+      display: none;
+      cursor: pointer;
+    }
+
+    #user-menu a {
+      display: block;
+      padding: 5px;
+      text-decoration: none;
+      color: #333;
+    }
+
+    #user-menu a:hover {
+      background-color: #ddd;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Five Nights at Freddy's</h1>
+  </header>
+
+  <nav>
+    <a href="Login.html">Home</a>
+            <a href="ABOUT-PAGE_FNAF.html">About</a>
+            <a href="GALLERY-PAGE_FNAF.html">Gallery</a>
+            <a href="Review.html">Review</a>
+            <a href="Gameplay.html">Gameplay</a>
+            <a href="merch%20test1.html">Shop</a>
+            <a href="CC.html">Content Creators</a>
+            <a href="FanGames.html">More Games</a>
+  </nav>
+  <p> Five Nights at Freddy's 1</p>
+  <div class="container">
+    <iframe src="https://youtube.com/embed/m6B8r_xuWZE?si=AIWMZgQIzDZ2jWLg" frameborder="0" allowfullscreen></iframe>
+    
+  </div>
+  <p> Five Nights at Freddy's 2</p>
+  <div class="container">
+    <iframe src="https://youtube.com/embed/cquNwPG0UB8?si=41wmkqPBC1Zu0iGl" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <p> Five Nights at Freddy's 3</p>
+  <div class="container">
+    <iframe src="https://youtube.com/embed/ViPM0Q2_rzw?si=vyGIg0mvAyqlX--8" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <p> Five Nights at Freddy's 4</p>
+  <div class="container">
+    <iframe src="https://youtube.com/embed/00sG7cj90HI?si=-5vqGElyneKZYaFY" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <p> Five Nights at Freddy's Sister Location</p>
+  <div class="container">
+    <iframe src="https://youtube.com/embed/KSbsjV3Fbk4?si=mGfRMyN1_xVqtxt3" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <div id="user-icon">
+    <img src="https://cdn-icons-png.flaticon.com/512/1077/1077114.png" width="50px" height="50px" onclick="showUserMenu()">
+  </div>
+  <div id="user-menu" onclick="hideUserMenu()">
+    <a href="Edit.html">My Profile</a>
+    <a href="Login.html">Log Out</a>
+  </div>
+  <script>
+    function showUserMenu() {
+      document.getElementById("user-menu").style.display = "block";
+    }
+
+    function hideUserMenu() {
+      document.getElementById("user-menu").style.display = "none";
+    }
+  </script>
+</body>
+
+</html>
