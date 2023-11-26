@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="stylesheet" href ="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/11.0.2/css/bootstrap-slider.min.css" integrity="sha512-3q8fi8M0VS+X/3n64Ndpp6Bit7oXSiyCnzmlx6IDBLGlY5euFySyJ46RUlqIVs0DPCGOypqP8IRk/EyPvU28mQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link href="https://fonts.cdnfonts.com/css/five-nights-at-freddys" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>          
+</head>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Five Nights at Freddy's</title>
+  <style>
+    @import url('https://fonts.cdnfonts.com/css/five-nights-at-freddys');
+
+    body {
+        background-image: url('https://wallpapercg.com/download/fnaf-help-wanted-3840x2160-9685.jpg');
+      background-repeat: no-repeat;
+      background-size: cover; 
+      background-position: center;
+      background-attachment: fixed;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #1a1a1a;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    #box{
+        background-color: rgba(94, 94, 94, 0.671);
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top:5%;
+        border-radius: 5px;
+        border: 2px solid white;
+   }
+   #box h1{
+        font-family: Five Nights At Freddys;
+        text-align:justify;
+        color: white;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-left: 8%;
+        margin-right: 8%;
+        text-align: center;
+    }
+    header {
+      font-family: Five Nights at Freddys;
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+    }
+    p {
+        font-family: Five Nights at Freddys;
+        font-size: 50px;
+      padding: 5px;
+      text-align: center;
+    }
+    nav {
+      background-color: #000000;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: #ddd;
+      color: #333;
+    }
+
+    .container {
+      padding: 1.5px;
+      width: 50%;
+      max-width: 700px;
+      margin: auto;
+      border: 5px solid #333; 
+      margin-top: 30px;
+      margin-bottom: 40px; 
+    }
+
+    iframe {
+      width: 100%;
+      height: 500px;
+    }
+
+    #user-icon {
+      position: absolute;
+      top: 20px;
+      right: 50px;
+      cursor: pointer;
+    }
+
+    #user-menu {
+      position: absolute;
+      top: 40px;
+      right: 10px;
+      background-color: #f1f1f1;
+      padding: 10px;
+      display: none;
+      cursor: pointer;
+    }
+
+    #user-menu a {
+      display: block;
+      padding: 5px;
+      text-decoration: none;
+      color: #333;
+    }
+
+    #user-menu a:hover {
+      background-color: #ddd;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Five Nights at Freddy's</h1>
+  </header>
+
+  <nav>
+    <a href="Login.html">Home</a>
+        <a href="ABOUT-PAGE_FNAF.html">About</a>
+        <a href="GALLERY-PAGE_FNAF.html">Gallery</a>
+        <a href="Review.html">Review</a>
+        <a href="Gameplay.html">Gameplay</a>
+        <a href="merch%20test1.html">Shop</a>
+        <a href="CC.html">Content Creators</a>
+        <a href="FanGames.html">More Games</a>
+  </nav>
+  <div id="box">
+  <p> Content Creators</p>
+  <h1> Markiplier</h1>
+  <div class="container">
+    <iframe src="https://youtube.com/embed/iOztnsBPrAA?si=MStIsybbxCzVzYO_" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <div class="container">
+    <iframe src="https://youtube.com/embed/YT1NhLTwwEg?si=QT7wsml7CFa3Xgth" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <div class="container">
+    <iframe src="https://youtube.com/embed/VXtVrNdD3YA?si=3m6CetZKogUiIwO3" frameborder="0" allowfullscreen></iframe>
+  </div>
+ 
+    <h1> Game Theory</h1>
+    <div class="container">
+        <iframe src="https://youtube.com/embed/gWOXSh4-Iuc?si=W2OhSw88VL3E-PRD" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="container">
+        <iframe src="https://youtube.com/embed/oLj9qS9EgB8?si=4FQ0aTT9byWp-IgJ" frameborder="0" allowfullscreen></iframe>
+      </div>
+  <div id="user-icon">
+    <img src="https://cdn-icons-png.flaticon.com/512/1077/1077114.png" width="50px" height="50px" onclick="showUserMenu()">
+  </div>
+  
+  </div>
+  <div id="user-menu" onclick="hideUserMenu()">
+    <a href="Edit.html">My Profile</a>
+    <a href="Login.html">Log Out</a>
+  </div>
+</div>
+  <script>
+    function showUserMenu() {
+      document.getElementById("user-menu").style.display = "block";
+    }
+
+    function hideUserMenu() {
+      document.getElementById("user-menu").style.display = "none";
+    }
+  </script>
+</body>
+
+</html>
